@@ -19,14 +19,14 @@ class ShowHide extends Component {
     return (
       <div className="bg-container">
         <h1 className="main-heading">Show/Hide</h1>
-        <div className="container2">
-          <div className="container3">
+        <div className="content-container">
+          <div className="container">
             <button type="button" className="btn" onClick={this.showFirstName}>
               Show/Hide FirstName
             </button>
             {showFirstName && <p className="name">Joe</p>}
           </div>
-          <div className="container3">
+          <div className="container">
             <button type="button" className="btn" onClick={this.showLastName}>
               Show/Hide LastName
             </button>
